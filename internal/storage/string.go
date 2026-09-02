@@ -2,7 +2,7 @@
 package storage
 
 func (s *Store) SetString(key, value string) {
-	s.Set(key, StringValue{
+	s.Set(key, Value{
 		Type: StringType,
 		Data: value,
 	})
