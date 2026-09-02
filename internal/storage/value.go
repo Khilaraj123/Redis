@@ -11,7 +11,7 @@ const (
 	SortedSetType
 )
 
-type Value struct{
+type Value struct {
 	Type DataType
 	Data any
 }

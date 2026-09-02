@@ -4,9 +4,9 @@ package storage
 
 import "sync"
 
-type Store struct{
-	mu sync.RWMutex
-	data map[string] Value
+type Store struct {
+	mu   sync.RWMutex
+	data map[string]Value
 }
 
 func NewStore() *Store {
